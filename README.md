@@ -1,4 +1,4 @@
-# Workers AI example using Mistral 7B and BGE (base 756)
+# Workers AI example using Mistral 7B and BGE (base 768)
 
 Cloudflare Workers AI allows you to run LLMs on the Cloudflare network on serverless GPUs. This can significantly reduce the cost associated with your AI app if you are not constantly soliciting the LLM. 
 

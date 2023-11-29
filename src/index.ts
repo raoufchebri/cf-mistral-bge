@@ -8,13 +8,6 @@ export interface Env {
 
 export default {
 	async fetch(request: Request, env: Env) {
-
-		const corsHeaders = {
-			"Access-Control-Allow-Origin": "*",
-			"Access-Control-Allow-Methods": "GET,HEAD,POST,OPTIONS",
-			"Access-Control-Max-Age": "86400",
-		  };
-
 		const ai = new Ai(env.AI);
 		
 		// Get user query	

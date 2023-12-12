@@ -1,5 +1,5 @@
 import { Ai } from '@cloudflare/ai'
-import { Client } from '@neondatabase/serverless'; // Import a PostgreSQL client library
+import { Client } from '@neondatabase/serverless';
 
 export interface Env {
   AI: any;
